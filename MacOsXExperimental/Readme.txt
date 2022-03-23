@@ -14,7 +14,7 @@ ticpp::Exception: Couldn't load /private/var/folders/XXX/YYYY/T/AppTranslocation
 
 ===================== Notes =====================================
 - this version corresponds to https://github.com/fosnola/cboe ( branch special_code )
-  commit 581b9a8832e983fbc68913e4f99f721d5d809322
+  commit 9cdaf0fd6e7d8d14537bf3a7b153283444ae6dd9
 - concerning the graphics, I put in data/graphics the original graphics,
   and in data/graphics2 the graph I used to test cboe. If you want to test them, 
   you can rename data/graphics to data/graphics_original and data/graphics2 to data/graphics
