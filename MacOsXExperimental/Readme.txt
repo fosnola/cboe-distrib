@@ -4,7 +4,7 @@ I compiled this version with XCode version 13.2.1, so I guess it can only work o
 These executables are not signed, so you will have to force GateKeeper to run them. 
 On OSX High Sierra/../Big Sur, the only solution I found is to run these commands in the terminal:
 
-cd ~/Downloads/BoE-experimental-MacIntel64-June2022
+cd ~/Downloads/BoE-experimental-MacIntel64-July2022
 xattr -d com.apple.quarantine BoE\ Character\ Editor.app/
 xattr -d com.apple.quarantine BoE\ Scenario\ Editor.app/
 xattr -d com.apple.quarantine Blades\ of\ Exile.app/
@@ -13,8 +13,8 @@ If you do not run these commands, the applications will probably CRASH with the 
 ticpp::Exception: Couldn't load /private/var/folders/XXX/YYYY/T/AppTranslocation/ZZZZ/d/data/dialogs/1str-title.xml
 
 ===================== Notes =====================================
-- this version corresponds to https://github.com/fosnola/cboe ( branch floor )
-  commit 8caa342052777ebac5b2b74c209f44b864ff0272
+- this version corresponds to https://github.com/fosnola/cboe ( branch b33da23090f30086ab43daf4ddfaaf127fddd8be )
+  commit b33da23090f30086ab43daf4ddfaaf127fddd8be
 - concerning the graphics, I put in data/graphics the original graphics,
   and in data/graphics2 the graph I used to test cboe. If you want to test them, 
   you can rename data/graphics to data/graphics_original and data/graphics2 to data/graphics
