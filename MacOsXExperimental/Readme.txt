@@ -13,8 +13,8 @@ If you do not run these commands, the applications will probably CRASH with the 
 ticpp::Exception: Couldn't load /private/var/folders/XXX/YYYY/T/AppTranslocation/ZZZZ/d/data/dialogs/1str-title.xml
 
 ===================== Notes =====================================
-- this version corresponds to https://github.com/fosnola/cboe ( branch b33da23090f30086ab43daf4ddfaaf127fddd8be )
-  commit b33da23090f30086ab43daf4ddfaaf127fddd8be
+- this version corresponds to https://github.com/fosnola/cboe ( branch special_code )
+  commit 8eac18053019823c7699a7ee5fa6b3d956a28f87
 - concerning the graphics, I put in data/graphics the original graphics,
   and in data/graphics2 the graph I used to test cboe. If you want to test them, 
   you can rename data/graphics to data/graphics_original and data/graphics2 to data/graphics
