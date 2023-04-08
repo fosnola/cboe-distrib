@@ -6,7 +6,7 @@ This project hosts some executables of the classic RPG creator Blades of Exile a
 
 Currently, it contains:
 - MacOsX/OsX11-MacIntel64.zip: Intel 64 OsX executables compiled from https://github.com/fosnola/cboe in Big Sur for MacOsX 10.9 - 10.11, as these executables are unsigned, you must first read the **ToReadBeforeLaunching.txt** which explains how to bypass GateKeeper.
-- MacOsXExperimental/OsX11-MacIntel64.zip: Intel 64 OsX executables compiled from the branch *floor* of https://github.com/fosnola/cboe in Big Sur for MacOsX 10.9 - 10.11, as these executables are unsigned, you must first read the **ToReadBeforeLaunching.txt** which explains how to bypass GateKeeper. This version differs from "classical" cboe sources by:
+- MacOsXExperimental/OsX11-MacIntel64.zip: Intel 64 OsX executables compiled from the branch *special_code* of https://github.com/fosnola/cboe in Monterey for MacOsX 10.9 - 10.12, as these executables are unsigned, you must first read the **ToReadBeforeLaunching.txt** which explains how to bypass GateKeeper. This version differs from "classical" cboe sources by:
 
   + a **junk bag** can be enabled in the preferences,
   + I totally changed the method to store special nodes; this new method seems interesting: it is more powerful and we can add new functions more easily. However, it changes the file format of the .boes files and some standardization work clearly needs to be done. *So you should not use this experimental version if you want to create a new scenario.*
